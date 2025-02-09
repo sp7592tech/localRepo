@@ -1,0 +1,49 @@
+body {
+    background-color: #720b0b;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 2em;
+    background-color: rgb(204, 100, 100);
+}
+
+footer {
+    background-color: #065809;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 1em;
+    text-align: center;
+}
